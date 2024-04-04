@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <div class="tela-branca" id="telaBranca"></div>
+<style>
+.tela-branca {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#f1f1f9; 
+    z-index: 9999; 
+    animation: fadeOut 0.5s ease-in-out forwards; 
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none; 
+    }
+}
+
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f1f1f9;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; 
+            margin-bottom: 500px;
+        }
+
+        header {
+            background-color: #f1f1f9;
+            color: #212225;
+            text-align: center;
+            padding: 25px 0; 
+            width: 100%;
+            box-shadow: 0 0 50px rgba(23, 48, 131, 0.178);
+            position: fixed;
+            top: 0;
+            z-index: 1000; 
+            transition: background-color 0.3s ease; 
+        }
+
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 35px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f1f1f9;
+            font-weight: 400;
+            font-size: 18px;
+            color: #212225;
+            transition: color 0.4s;
+        }
+
+        nav a:hover {
+            color: #1c223863;
+        }
+
+        .g {
+            color: #212225;
+            font-size: 60px;
+            line-height: 84px;
+            text-align: left;
+            font-weight: 530;
+            position: relative;
+            top: -5px;
+            right: 530px;
+        }
+
+        .t {
+            color: #212225;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: left;
+            font-weight: 300;
+            position: relative;
+            top: -25px;
+            left: -320px
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="position: relative; bottom: -2px;">Início</a></li>
+                <li><a href="Sobre.html"style="position: relative; bottom: -2px;">Sobre</a></li>
+                <li><a href="Curriculo.html"style="position: relative; bottom: -2px;">Currículo</a></li>
+                <li><a href="Trabalhos.html"style="position: relative; bottom: -2px;">Trabalhos</a></li>
+                <li><a href="PPE.html"style="position: relative; bottom: -2px;">PPE</a></li>
+                <li><a href="Redes.html"style="position: relative; bottom: -2px;">Redes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    
+    <style>
+      @keyframes slideInUp {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0); }
+}
+      
+      .elemento {
+        animation: slideInUp 0.7s ease;
+      }
+      </style>
+
+      
+</body>
+</html>
